@@ -37,7 +37,7 @@ $pokemon2 = new Pokemon("Charmander", "Fogo", 90, 30, 25, [$ataque5, $ataque6, $
 $pokemon3 = new Pokemon("Squirtle", "Água", 105, 35, 25, [$ataque9, $ataque10, $ataque11, $ataque12]);
 $pokemon4 = new Pokemon("Bulbasaur", "Planta", 95, 38, 30, [$ataque13, $ataque14, $ataque15, $ataque16]);
 
-// Perguntar ao jogador qual Pokémon ele quer escolher
+// Perguntar ao jogador qual Pokémon ele quer escolher :)
 echo "Novo comando: escolha seu Pokémon.\n";
 echo "1. Charmander (Fogo)\n";
 echo "2. Squirtle (Água)\n";
