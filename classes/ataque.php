@@ -5,7 +5,6 @@ class Ataque
     public $dano;
     public $tipo;
     public $precisao;
-
     public function __construct($nome, $dano, $tipo, $precisao)
     {
         $this->nome = $nome;
@@ -13,7 +12,6 @@ class Ataque
         $this->tipo = $tipo;
         $this->precisao = $precisao;
     }
-
     public function calcularDano()
     {
         // Simulação de precisão (se a precisão for 100%, o ataque sempre acerta)
